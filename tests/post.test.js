@@ -1,4 +1,4 @@
-const debug = require("debug")("canduma:post.test.js");
+const debug = require("debug")("getotrade:post.test.js");
 const request = require("supertest");
 const HttpStatus = require("http-status-codes");
 const apiPort = process.env.PORT || 8000;

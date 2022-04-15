@@ -1,10 +1,10 @@
 {
-  "name": "canduma",
+  "name": "getotrade",
   "private": true,
   "scripts": {
     "lint": "nopenv pre-commit run --all-files",
     "test": "cross-env NODE_ENV=test jest",
-    "testci": "cross-env RUST_LOG=debug DEBUG=canduma:* NODE_ENV=test jest"
+    "testci": "cross-env RUST_LOG=debug DEBUG=getotrade:* NODE_ENV=test jest"
   },
   "husky": {
     "hooks": {

@@ -1,4 +1,4 @@
-const debug = require('debug')('canduma:user.test.js');
+const debug = require('debug')('getotrade:user.test.js');
 const request = require('supertest');
 
 const HttpStatus = require('http-status-codes');
